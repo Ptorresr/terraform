@@ -497,10 +497,7 @@ new line
       ~ ami  = "ami-BEFORE" -> "ami-AFTER"
         id   = "i-02ae66f368e8518a9"
         name = "alice"
-        tags = {
-            "name" = "bob"
-        }
-        # (2 unchanged attributes hidden)
+        # (3 unchanged attributes hidden)
     }
 `,
 			VerboseOutput: `  # test_instance.example will be updated in-place

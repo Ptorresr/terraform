@@ -1460,5 +1460,5 @@ func DiffActionSymbol(action plans.Action) string {
 // replaced by a flag in the schema, but for now this is likely to be good
 // enough.
 func identifyingAttribute(name string, attrSchema *configschema.Attribute) bool {
-	return name == "id" || name == "tags" || name == "name"
+	return name == "id" || name == "name"
 }
